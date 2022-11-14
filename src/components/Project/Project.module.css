@@ -17,7 +17,6 @@
 .block {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
     justify-items: center;
     position: absolute;
     border-radius: 5px;
