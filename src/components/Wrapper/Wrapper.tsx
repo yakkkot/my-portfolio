@@ -11,7 +11,7 @@ export interface IWrapper extends DetailedHTMLProps<HTMLAttributes<HTMLDivElemen
 export const Wrapper = ({children, className,...props}: IWrapper): JSX.Element => {
 
     return (
-        <div className={cn(className,styles.wrapper)} {...props} >
+        <div className={cn(styles.wrapper,className)} {...props} >
             {children}
         </div>
     );

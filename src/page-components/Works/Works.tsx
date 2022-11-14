@@ -13,7 +13,7 @@ const Works = ():JSX.Element => {
     return (
         <div className={'relative h-screen'}>
             <Container id='Works'>
-                <Wrapper>
+                <Wrapper className={'flex items-center justify-center'}>
                     <motion.div
                         initial={{opacity: 0, x: 300}}
                         whileInView={{opacity: 1, x: 0}}
