@@ -1,0 +1,23 @@
+.container {
+    position: fixed;
+    left: 0;
+    top: 35%;
+}
+
+.li{
+    position: relative;
+    left: -100px;
+    transition: 0.5s;
+}
+
+.li:hover {
+    left: 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        display: none;
+    }
+
+}

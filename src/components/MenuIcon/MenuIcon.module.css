@@ -1,0 +1,35 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+    transition: all 0.2s;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 5%);
+}
+
+.primary {
+    color: white;
+    background: #bf42ce;
+}
+
+.primary:hover {
+    background: #912d9d;
+}
+
+.white {
+    color: #bf42ce;
+    background-color: white;
+}
+
+.white:hover {
+    color: white;
+    background: #bf42ce;
+}

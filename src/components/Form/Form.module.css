@@ -1,0 +1,26 @@
+.form{
+    grid-column: start/end;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.button{
+    padding: 10px 50px;
+    border: 2px solid #eff3ff;
+    transition: 0.4s;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.valid{
+    background-color: #aa3cb7;
+    border: 2px solid #aa3cb7;
+}
+
+@media screen and (max-width: 480px) {
+    .button{
+        align-self: auto;
+    }
+
+}

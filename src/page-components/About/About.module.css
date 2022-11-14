@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: [start] minmax(120px, 520px) [middle] minmax(120px, 520px) [end];
+    align-content: center;
+    justify-content: center;
+    gap: 45px 20px;
+}
+
+.about{
+    text-align: center;
+    grid-column: start/end;
+}

@@ -1,0 +1,6 @@
+.wrapper {
+    height: 100vh;
+    padding: 20px;
+    display: grid;
+    overflow-x: hidden;
+}
