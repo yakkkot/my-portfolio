@@ -23,7 +23,7 @@ const Works = ():JSX.Element => {
                         <Title>Works</Title>
                         <IconText icon={'works'}>Check out some of my Pet Projects.</IconText>
                         <div
-                            className={'w-full relative flex  overflow-x-scroll scrollbar  scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-track-blue-900/70 scrollbar-thumb-[#aa3cb7]/80 snap-x snap-mandatory z-20'}>
+                            className={'w-full relative flex  overflow-x-scroll overflow-y-hidden scrollbar  scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-track-blue-900/70 scrollbar-thumb-[#aa3cb7]/80 snap-x snap-mandatory z-20'}>
                             {data.map((x) => (
                                 <Project key={x.id} project={x}/>
                             ))}
