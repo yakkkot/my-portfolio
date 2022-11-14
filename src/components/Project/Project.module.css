@@ -17,6 +17,7 @@
 .block {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     justify-items: center;
     position: absolute;
     border-radius: 5px;
@@ -33,6 +34,7 @@
 }
 .blockHidden{
     position: static;
+    align-items: normal;
     width: auto;
     opacity: 1;
     gap: 15px;
