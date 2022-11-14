@@ -33,7 +33,7 @@
     opacity: 1;
 }
 .blockHidden{
-    position: relative;
+    position: static;
     width: auto;
     opacity: 1;
     gap: 15px;
