@@ -18,6 +18,7 @@ const Works = ():JSX.Element => {
                         initial={{opacity: 0, x: 300}}
                         whileInView={{opacity: 1, x: 0}}
                         transition={{duration: 1}}
+                        viewport={{once:true}}
                         className={styles.container}>
                         <Title>Works</Title>
                         <IconText icon={'works'}>Check out some of my Pet Projects.</IconText>

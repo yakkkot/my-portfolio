@@ -24,6 +24,7 @@ const Experience = ():JSX.Element => {
             <motion.div className={styles.container}
                         initial={{opacity: 0, x: -350}}
                         whileInView={{opacity: 1, x: 0}}
+                        viewport={{once:true}}
                         transition={{duration: 1}}>
                 <Title>Experience</Title>
                 <IconText icon={'experience'}>These are the technologies I've worked with (but that's not

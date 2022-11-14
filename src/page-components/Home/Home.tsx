@@ -26,6 +26,7 @@ const Home = (): JSX.Element => {
             <motion.div className={cn(styles.container, '')}
                         initial={{opacity: 0, x: -350}}
                         whileInView={{opacity: 1, x: 0}}
+                        viewport={{once:true}}
                         transition={{duration: 1}}>
                 <img className={styles.photo} src={MyPhoto} alt={'MyPhoto'}/>
                 <h1 className={`${styles.typeWriter} font-bold text-center z-10`}>
