@@ -2,6 +2,7 @@
     position: fixed;
     left: 0;
     top: 35%;
+    z-index: 50;
 }
 
 .li{

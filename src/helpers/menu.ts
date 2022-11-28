@@ -6,6 +6,7 @@ import {BiError as error} from "react-icons/bi";
 import CourseApp from "../Assets/Images/courseApp.png"
 import CourseAppMobile from "../Assets/Images/mobileCourseApp.png"
 import MovieApp from "../Assets/Images/movieApp.png"
+import MovieAppMobile from "../Assets/Images/movieMobile.png"
 
 
 
@@ -41,19 +42,19 @@ export interface IData {
 export const data: IData[] = [
     {
         id: 1,
+        name: "Hulu App",
+        image: MovieApp,
+        mobileImage: MovieAppMobile,
+        git: "https://github.com/yakkkot/hulu-app",
+        link: "https://hulu-yakkkot.vercel.app",
+    },
+    {
+        id: 2,
         name: "Course App",
         image: CourseApp,
         mobileImage: CourseAppMobile,
         git: "https://github.com/yakkkot/top-app",
         link: "https://yakkkot-course-app.vercel.app",
-    },
-    {
-        id: 2,
-        name: "Movie App",
-        image: MovieApp,
-        mobileImage: "",
-        git: "https://github.com/yakkkot/movie-project-react",
-        link: "https://movie-house-yakkkot.vercel.app",
     }
 ];
 

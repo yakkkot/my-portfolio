@@ -29,6 +29,7 @@ const Home = (): JSX.Element => {
                         viewport={{once:true}}
                         transition={{duration: 1}}>
                 <img className={styles.photo} src={MyPhoto} alt={'MyPhoto'}/>
+
                 <h1 className={`${styles.typeWriter} font-bold text-center z-10`}>
                     <span>{text}</span>
                     <Cursor cursorColor={'#bf42ce'}/>
