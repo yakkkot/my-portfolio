@@ -25,7 +25,7 @@ const Project = ({project, className, ...props}: IProject): JSX.Element => {
 
     return (
         <div className={cn(className, styles.sliderWrap, 'w-full  flex-shrink-0 snap-center')} {...props}>
-            <div className={cn('relative flex items-center justify-center flex-col')}>
+            <div className={cn('relative flex items-center justify-center flex-col px-2')}>
                 <img className={cn({
                     [styles.mobile]: widthScreen <= 768,
                     [styles.laptop]: widthScreen > 768

@@ -31,7 +31,7 @@ const LeftNavigation = ({className,...props}:ILeft): JSX.Element => {
                 </a>
             </li>
             <li className={`${styles.li} px-2 w-[150px] h-[60px]  bg-violet-700 flex items-center gap-4 text-[20px]`}>
-                <a href="https://resume.io/r/DpMLvp5CE" target="_blank"
+                <a href="https://drive.google.com/drive/folders/1w11i3TlIhXHmPATz6AEKQgG4rRAlLjhO?usp=sharing" target="_blank"
                    className='flex items-center justify-between w-full'>Resume
                     <BsFillPersonLinesFill color={'white'} size={30}/>
                 </a>
