@@ -44,7 +44,7 @@ const Project = ({project, className, ...props}: IProject): JSX.Element => {
                 </div>
                 <div
                     className={styles.title}>
-                    <span className={'underline decoration-[#bf42ce]/60'}>Case study {id} of 2: </span>
+                    <span className={'underline decoration-[#bf42ce]/60'}>Case study {id} of 3: </span>
                     {name}
                 </div>
             </div>
